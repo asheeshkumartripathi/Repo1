@@ -34,6 +34,7 @@ public class Actio {
 		System.out.println("done");		
 		b.sendKeys(Keys.CONTROL+"t").build().perform();
 		b.sendKeys(Keys.CONTROL+"n").build().perform();
+		driver.close();
 		
 		
 	}
